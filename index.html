@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto GPT</title>
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+    <h1>ChatGPT</h1>
+</header>
+
+<div class="container">
+    <!-- Campo de entrada e botão -->
+    <div class="caixa_pergunta">
+        <input type="text" placeholder="Mensagem ChatGPT">
+        <button id="send-button">
+            <img src="./acima.png">
+        </button>
+    </div>
+    <!-- Caixa de resposta escondida -->
+    <div class="caixa_resposta" style="display: none;">
+        <textarea id="caixa_resposta_texto" placeholder="A resposta aparecerá aqui..." disabled></textarea>
+    </div>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
